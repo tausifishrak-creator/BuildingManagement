@@ -1,0 +1,188 @@
+        body {
+            font-family: "Fredoka", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            background-image: url('img/modern-tokyo-street-background.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-position: center;
+            background-size: cover; /* Stretches the image to cover the entire background */
+            background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+        }
+
+        .topL{height:100px;
+            background-color: #0a4e63BB;
+            color: white;           /* Make link white */
+            text-decoration: none;  /* Remove underline */
+            padding:10px;
+             }
+        .signup_button{background-color: aqua;
+            width:60px;
+            text-align:center;
+            color:black;
+            padding:5px;
+            border-radius:4px;
+            margin-right: 10px;
+            float:right;
+        }
+            .signup_bar, .login_bar {
+            margin-top: 80px;
+            max-width: 800px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.15); /* A subtle transparent background */
+            backdrop-filter: blur(10px); /* Glassmorphism effect */
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            z-index: 2;
+        }
+
+        .text{
+            height: 40px;
+            width: 250px;
+            border-radius:4px;
+            border:solid 1px #DDD;
+            padding-left: 6px;
+        }
+
+        .topbar {
+            height: 50px;
+            background-color: #d2e0ff;
+            color: #000000;
+            z-index: 1;
+            }
+
+        .tenants {
+            margin-top: 80px;
+            max-width: 800px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            z-index: 2;
+        }
+        .tenants_table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .tenants_table th, .tenants_table td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        .tenants_box {
+            width: 600px;
+            margin: auto;
+        }
+
+        .add_tenant_box {
+            width:25px;
+            height: 40px;
+            margin:auto;
+            float:right;
+        }
+        .tenants_add_box {
+            width: 300px;
+            margin: auto;
+        }
+        
+        .text {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .text::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .text:focus {
+            border-color: #4a90e2;
+            box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+        }
+
+
+
+        .button {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            background: linear-gradient(90deg, #4a90e2, #6a5acd);
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+
+                    .input-group {
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+            }
+
+            .input-icon {
+                position: absolute;
+                left: 12px;
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            .text {
+                width: 100%;
+                padding: 12px 12px 12px 40px; /* Adjust padding for icon */
+                border-radius: 8px;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                background: rgba(255, 255, 255, 0.2);
+                color: #fff;
+                outline: none;
+                transition: border-color 0.3s, box-shadow 0.3s;
+            }
+
+            .text::placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            .text:focus {
+                border-color: #4a90e2;
+                box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+            }
+            
+            .button {
+                width: 100%;
+                padding: 12px;
+                border-radius: 8px;
+                border: none;
+                background: linear-gradient(90deg, #4a90e2, #6a5acd);
+                color: #fff;
+                font-weight: bold;
+                cursor: pointer;
+                transition: transform 0.2s, box-shadow 0.2s;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            }
+
+            .button:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            }
